@@ -1,0 +1,66 @@
+MainWindow {
+    background-color: rgb(46, 47, 48);
+}
+
+QMenuBar {
+    color: rgb(231, 231, 231);
+    background-color: rgb(46, 47, 48);
+}
+
+QMenu {
+    color: rgb(231, 231, 231);
+    background-color: rgb(55, 55, 55);
+}
+
+QMenuBar::item:selected {
+    background-color: rgb(80, 80, 80);
+}
+
+QMenu::item::selected {
+    background-color: rgb(39, 96, 154);
+}
+
+QWizard {
+    color: rgb(231, 231, 231);
+    background-color: rgb(46, 47, 48);
+}
+
+QWizardPage {
+    background-color: rgb(231, 231, 231);
+}
+
+QWizardPage QLabel#tips {
+    color: red;
+}
+
+ProTree {
+    border-color: #9F9F9F;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding-right: 10px;
+}
+
+QLabel#labelPro {
+    color: rgb(231,231,231);
+    border-color: #9F9F9F;
+    border-style: dotted;
+    border-width: 0 0 1px 0;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+PicShow {
+    border-color: #9F9F9F;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    padding: 10px;
+    background: rgb(64, 66, 68);
+}
+
+#nextBtn {
+    border: 0px;
+}
+
+#previousBtn {
+    border: 0px;
+}
